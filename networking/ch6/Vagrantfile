@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 cluster = {
-  "host1" => { :cpus => 1, :mem => 1024, :ip => "172.18.2.3", :docker_range => "host1_docker.json"},
-  "host2" => { :cpus => 1, :mem => 1024, :ip => "172.18.2.4", :docker_range => "host2_docker.json"},
+  "host1" => { :cpus => 1, :mem => 1024, :ip => "172.18.2.1", :docker_range => "host1_docker.json"},
+  "host2" => { :cpus => 1, :mem => 1024, :ip => "172.18.3.4", :docker_range => "host2_docker.json"},
 }
 
 Vagrant.configure("2") do |config|
